@@ -1,0 +1,38 @@
+.quizConstructor {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    font-size: 40px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.closeBtn:hover {
+    background-color: #666;
+}
+
+.addButton {
+    width: 220px;
+    padding: 10px;
+    font-size: 16px;
+    background: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.addButton:hover {
+    background: #005f7a;
+}

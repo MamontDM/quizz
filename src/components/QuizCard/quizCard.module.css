@@ -1,0 +1,73 @@
+.quizItem {
+    position: relative;
+    background: #f8f8f8;
+    width: 250px;
+    height: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgb(68, 66, 66);
+}
+
+.menuContainer {
+    left: 6%;
+    top: -5%;
+    align-self: flex-start;
+}
+
+.menuButton {
+    position: absolute;
+    background: none;
+    left: 80%;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.quizInfo{
+    width: 100%;
+    height: 100%;
+}
+
+
+.menuDropdown {
+    position: absolute;
+    right: 21%;
+    top: 5%;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 5px 0;
+    margin: 0;
+    z-index: 10;
+}
+
+.menuDropdown li {
+    padding: 8px 15px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.menuDropdown li:hover {
+    background: #ddd;
+}
+
+.menuDropdown .delete {
+    color: red;
+}
+
+.menuDropdown .delete:hover {
+    background: #ffcccc;
+}
+
+.dragHandle {
+    cursor: grab;
+    user-select: none;
+    font-size: 20px;
+    align-self: flex-end;
+}
+.dragHandle:active {
+    cursor: grabbing;
+}

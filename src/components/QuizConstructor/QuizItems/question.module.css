@@ -1,0 +1,53 @@
+.questionContent {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: white;
+}
+
+.questionArea {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.questionInput {
+    flex: 1;
+    height: 40px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.questionSelect {
+    max-width: 150px;
+    height: 45px;
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.dragHandle {
+    cursor: grab;
+    user-select: none;
+    font-size: 20px;
+    align-self: flex-end;
+}
+.removeBtn{
+    width: 10%;
+    border: 2px solid rgb(68, 0, 255);
+}
+.removeBtn:hover{
+    border: 2px solid rgb(255, 0, 0);
+}
+
+.dragHandle:active {
+    cursor: grabbing;
+}

@@ -1,0 +1,49 @@
+.answerArea {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+}
+
+.correctMark {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+.dragHandle {
+    cursor: grab;
+    user-select: none;
+    font-size: 20px;
+    align-self: flex-end;
+}
+
+.dragHandle:active {
+    cursor: grabbing;
+}
+
+.answer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    min-width: 750px;
+    height: 40px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+.answerText{
+    width: 80%;
+    height: 80%;
+}
+
+.answer button:hover{
+    border: 2px solid red;
+    transition: background-color 0.4s ease-in-out;
+}
+
+
